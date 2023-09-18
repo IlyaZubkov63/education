@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Обучение</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <script href = "script.js"></script>
+    <script>alert('Привет, посетитель')</script>
+    <div class="text-center mt-10">
+        <button class = "text-2xl bg-cyan-500 hover:bg-cyan-600 text-pink-500 font-bold pr-7 pl-7 pt-2 pb-2 rounded-lg self-center" id="button">Нажми меня</button>
+    </div>
+
+    <script>
+        let button = document.getElementById('button');
+        button.addEventListener('click', function() {
+            console.log('Количество нажатий');
+        })
+    </script>
 </body>
 </html>
