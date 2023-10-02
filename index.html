@@ -7,19 +7,57 @@
     <title>Обучение</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  
 </head>
-<body>
-    <div class="text-center mt-10">
+<div>
+    <!-- <div class="text-center mt-10">
         <button class = "text-2xl bg-slate-200 text-black-500 font-bold pr-7 pl-7 pt-2 pb-2 rounded-lg self-center" id="button">Нажми меня</button>
     </div>
-    <div class = "pt-2 ml-auto mr-auto mt-10 w-1/2 hidden" id = "text" >
+    <div class = "pt-2 ml-auto mr-auto mt-10 w-1/2 hidden" id = "text">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, in. Exercitationem deserunt eius cupiditate, tempora possimus illo qui neque, corrupti, omnis ratione necessitatibus sint alias inventore tenetur quo corporis fugiat.
         <div class="text-center flex mt-10 justify-between">
             <button class = "text-2xl bg-red-700 text-white font-normal pr-7 pl-7 pt-2 pb-2 rounded-lg self-center" id="button-left">Закрыть</button>
             <button class = "text-2xl bg-amber-500 text-white font-normal pr-7 pl-7 pt-2 pb-2 rounded-lg self-center" id="button-right" >Создать объекты</button>
         </div>
-    </div>
+    </div> -->
 
-    <script src="script.js"></script>
+
+   
+
+    <!-- <div class="text-center mt-10">
+    <button class = "text-2xl bg-teal-300 text-black-500 font-bold pr-7 pl-7 pt-2 pb-2 rounded-lg self-center" id="button">СОЗДАТЬ ОБЪЕКТЫ</button>
+    <div id="user__age"></div>
+</div> -->
+
+
+<div class="text-center mt-10">
+<button class = "text-2xl bg-teal-300 text-black-500 font-bold pr-7 pl-7 pt-2 pb-2 rounded-lg self-center"  id="new_obj">Создать объекты</button>
+</div>
+<div class = "text-center mt-10">
+  <h3 class = "font-semibold text-2xl">Все пользователи</h3>
+  <ul id="all_users"></ul>
+</div>
+<div class = "text-center mt-10">
+  <h3 class = "font-semibold text-2xl">Длина массива</h3>
+  <ul id="length"></ul>
+</div>
+<div class = "text-center mt-10">
+  <h3 class = "font-semibold text-2xl">Пользователи младше 50 лет</h3>
+  <ul id="filter"></ul>
+</div>
+
+
+
+
+
+
+    <!-- <div id="app"></div> -->
+
+    <script src="script.js" type="text/babel"></script>
+   
+    
 </body>
 </html>
