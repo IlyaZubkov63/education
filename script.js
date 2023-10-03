@@ -1,32 +1,32 @@
-document.getElementById('button').onclick = function() {
-    let text = document.getElementById('text');
-    let button = document.getElementById('button');
-    if (text.classList.contains('hidden')) {
-        
-        button.style.backgroundColor = "green";
-        text.classList.remove('hidden')
-
-    } else {
-      text.classList.add('hidden')
-        
-        button.style.backgroundColor = "grey";
-    }
-};
-
-
 // document.getElementById('button').onclick = function() {
 //     let text = document.getElementById('text');
 //     let button = document.getElementById('button');
-//     if (text.style.display == "none") {
-//         text.style.display = "block";
-//         button.style.backgroundColor = "green";
+//     if (text.classList.contains('hidden')) {
         
+//         button.style.backgroundColor = "green";
+//         text.classList.remove('hidden')
 
 //     } else {
-//         text.style.display = "none"
+//       text.classList.add('hidden')
+        
 //         button.style.backgroundColor = "grey";
 //     }
 // };
+
+
+document.getElementById('button').onclick = function() {
+    let text = document.getElementById('text');
+    let button = document.getElementById('button');
+    if (text.style.display == "none") {
+        text.style.display = "block";
+        button.style.backgroundColor = "green";
+        
+
+    } else {
+        text.style.display = "none"
+        button.style.backgroundColor = "grey";
+    }
+};
 
 
 
